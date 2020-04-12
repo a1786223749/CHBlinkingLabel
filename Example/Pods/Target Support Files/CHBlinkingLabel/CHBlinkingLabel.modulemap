@@ -1,0 +1,6 @@
+framework module CHBlinkingLabel {
+  umbrella header "CHBlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37989F8E1781E8EB697EF9E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37989F8E1781E8EB697EF9E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		37C7118B5252073AB79FFD0D /* Pods_CHBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B30DA20622AFC29C6CE1AF0 /* Pods-CHBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBlinkingLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHBlinkingLabel_Example/Pods-CHBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CHBlinkingLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHBlinkingLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* CHBlinkingLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHBlinkingLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		754E4D044B37139265349CAE /* CHBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHBlinkingLabel.podspec; path = ../CHBlinkingLabel.podspec; sourceTree = "<group>"; };
-		8378CE207BA4429E7F540FF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		754E4D044B37139265349CAE /* CHBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHBlinkingLabel.podspec; path = ../CHBlinkingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8378CE207BA4429E7F540FF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9D04602D85D03F0E0F0118EA /* Pods-CHBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBlinkingLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-CHBlinkingLabel_Example/Pods-CHBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A63B5DF1C4B24ACDA52C1F95 /* Pods-CHBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHBlinkingLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHBlinkingLabel_Tests/Pods-CHBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C0986F7B4E3FCC2F850FAAEF /* Pods_CHBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				CC3BA61977F97CAAD746B085 /* Pods-CHBlinkingLabel_Tests.debug.xcconfig */,
 				A63B5DF1C4B24ACDA52C1F95 /* Pods-CHBlinkingLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
