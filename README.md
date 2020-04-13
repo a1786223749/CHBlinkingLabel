@@ -22,7 +22,7 @@ pod 'CHBlinkingLabel'
 
 ## Author
 
-showr612, xiuhong.chen@hand-china.com
+showr612, 1786223749@qq.com
 
 ## License
 
