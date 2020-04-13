@@ -26,4 +26,4 @@ showr612, 1786223749@qq.com
 
 ## License
 
-CHBlinkingLabel is available under the MIT license. See the LICENSE file for more info.
+CHBlinkingLabel is available under the MIT license. See the LICENSE file for more info.1
